@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   MoneyFlux — Privacy Policy &amp; Terms of Use
+  </title>
+  <meta content="MoneyFlux legal page with the app's Privacy Policy and Terms of Use. The app collects no data, uses no analytics, and runs without accounts or servers." name="description"/>
+  <meta content="#07090F" name="theme-color"/>
+  <meta content="dark" name="color-scheme"/>
+  <meta content="MoneyFlux — Privacy Policy &amp; Terms of Use" property="og:title"/>
+  <meta content="MoneyFlux collects no data, uses no analytics, and stores information on your device or in your private iCloud account." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="icon.png" property="og:image"/>
+  <style>
+   :root {
+      --bg: #07090F;
+      --bg-glow: #1E2A6B;
+      --surface: #10131F;
+      --surface-2: #161A29;
+      --border: rgba(255,255,255,0.08);
+      --border-strong: rgba(255,255,255,0.16);
+      --text: #F2F4F8;
+      --text-strong: #FFFFFF;
+      --text-muted: #8A91A3;
+      --accent: #9085E9;
+      --accent-hover: #ADA5FF;
+      --accent-soft: rgba(144,133,233,0.14);
+      --green: #4CC38A;
+      --green-soft: rgba(76,195,138,0.12);
+      --radius: 14px;
+      --maxw: 760px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(ellipse 900px 520px at 50% 0, color-mix(in srgb, var(--bg-glow) 55%, transparent), transparent 72%),
+        var(--bg);
+      background-attachment: fixed, scroll;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover,
+    a:focus-visible {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    img,
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    :is(h1, h2, h3)[id],
+    article {
+      scroll-margin-top: 76px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--text-strong);
+    }
+
+    h1 {
+      font-size: clamp(2.3rem, 7vw, 2.5rem);
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: clamp(1.7rem, 5vw, 1.75rem);
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: clamp(1.15rem, 4vw, 1.25rem);
+      font-weight: 650;
+    }
+
+    p,
+    ul,
+    ol {
+      margin: 0;
+    }
+
+    ul,
+    ol {
+      padding-left: 1.25rem;
+    }
+
+    strong {
+      color: var(--text-strong);
+    }
+
+    .shell {
+      width: min(100%, calc(var(--maxw) + 40px));
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(14px) saturate(180%);
+      background: color-mix(in srgb, var(--bg) 78%, transparent);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      min-height: 62px;
+    }
+
+    .brand-link,
+    .hero-wordmark {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0;
+      color: inherit;
+      text-decoration: none;
+      white-space: nowrap;
+      hyphens: none;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-link {
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .money {
+      color: var(--text-strong);
+    }
+
+    .flux {
+      color: var(--accent);
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    main {
+      padding: 40px 0 72px;
+    }
+
+    .hero {
+      text-align: center;
+      display: grid;
+      gap: 1rem;
+      justify-items: center;
+      padding: 20px 0 32px;
+    }
+
+    .hero-icon {
+      width: 88px;
+      height: 88px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 22px 60px color-mix(in srgb, var(--accent) 30%, transparent);
+    }
+
+    .hero-wordmark {
+      font-size: clamp(2.3rem, 7vw, 2.5rem);
+      font-weight: 700;
+      justify-self: center;
+    }
+
+    .tagline,
+    .hero-dates,
+    .article-dates,
+    footer {
+      color: var(--text-muted);
+    }
+
+    .summary-box,
+    .jump-card,
+    .contents,
+    article {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+    }
+
+    .summary-box {
+      padding: 1rem 1.1rem;
+      background: var(--accent-soft);
+      margin-bottom: 1.25rem;
+    }
+
+    .jump-cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .jump-card {
+      display: block;
+      padding: 1rem 1.1rem;
+      background: var(--surface);
+      color: var(--text);
+      text-decoration: none;
+      transition: border-color 180ms ease, background-color 180ms ease, transform 180ms ease;
+    }
+
+    .jump-card:hover,
+    .jump-card:focus-visible {
+      border-color: var(--accent);
+      background: var(--surface-2);
+      transform: translateY(-1px);
+    }
+
+    .jump-card strong {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-size: 1.05rem;
+    }
+
+    article {
+      background: color-mix(in srgb, var(--surface) 92%, transparent);
+      padding: 1.4rem;
+    }
+
+    article + article {
+      margin-top: 2.5rem;
+      padding-top: 1.6rem;
+      position: relative;
+    }
+
+    article + article::before {
+      content: "";
+      position: absolute;
+      top: -1.25rem;
+      left: 0;
+      right: 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .contents {
+      background: var(--surface);
+      padding: 1rem 1.1rem;
+      margin: 1rem 0 1.25rem;
+    }
+
+    .contents h3 {
+      margin-bottom: 0.8rem;
+      font-size: 1rem;
+    }
+
+    .contents ol {
+      columns: 2;
+      column-gap: 1.5rem;
+      padding-left: 1.15rem;
+    }
+
+    .contents li {
+      break-inside: avoid;
+      margin-bottom: 0.45rem;
+    }
+
+    .legal-section {
+      margin-top: 1.3rem;
+    }
+
+    .legal-section h3 {
+      margin-bottom: 0.75rem;
+    }
+
+    .legal-section p + p,
+    .legal-section p + ul,
+    .legal-section ul + p,
+    .legal-section p + .table-scroll,
+    .legal-section .table-scroll + p,
+    .legal-section ul + .table-scroll,
+    .legal-section .table-scroll + ul {
+      margin-top: 0.9rem;
+    }
+
+    .legal-section li + li {
+      margin-top: 0.4rem;
+    }
+
+    .table-scroll {
+      overflow-x: auto;
+      margin: 0;
+      border: 1px solid var(--border);
+      border-radius: calc(var(--radius) - 2px);
+    }
+
+    table {
+      width: 100%;
+      min-width: 520px;
+      border-collapse: collapse;
+      font-size: 15px;
+      background: var(--surface-2);
+    }
+
+    th,
+    td {
+      padding: 0.85rem 0.95rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--surface);
+      color: var(--text-strong);
+      font-weight: 650;
+    }
+
+    tbody tr + tr td {
+      border-top: 1px solid var(--border);
+    }
+
+    .back-to-top {
+      margin-top: 1.4rem;
+    }
+
+    footer {
+      padding: 2rem 0 0;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .header-inner {
+        align-items: flex-start;
+        padding: 0.85rem 0;
+      }
+
+      nav ul,
+      .jump-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .contents ol {
+        columns: 1;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition: none !important;
+      }
+    }
+
+    @media print {
+      :root {
+        color-scheme: light;
+      }
+
+      body {
+        color: #000;
+        background: #fff;
+      }
+
+      .site-header,
+      .jump-cards,
+      .back-to-top {
+        display: none !important;
+      }
+
+      main {
+        padding: 0;
+      }
+
+      .shell {
+        width: 100%;
+        max-width: none;
+        padding: 0;
+      }
+
+      .summary-box,
+      .contents,
+      article,
+      .table-scroll,
+      table,
+      th,
+      td {
+        background: #fff !important;
+        color: #000 !important;
+        border-color: #999 !important;
+        box-shadow: none !important;
+      }
+
+      article {
+        break-before: page;
+        page-break-before: always;
+      }
+
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+  </style>
+ </head>
+ <body>
+  <header class="site-header">
+   <section class="shell header-inner">
+    <a aria-label="MoneyFlux top" class="brand-link" href="#top">
+     <span class="money">
+      Money
+     </span>
+     <span class="flux">
+      Flux
+     </span>
+    </a>
+    <nav aria-label="Primary">
+     <ul>
+      <li>
+       <a href="#privacy">
+        Privacy
+       </a>
+      </li>
+      <li>
+       <a href="#terms">
+        Terms
+       </a>
+      </li>
+      <li>
+       <a href="mailto:chernyshtaras94@gmail.com">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </section>
+  </header>
+  <main id="top">
+   <section class="shell">
+    <section aria-labelledby="hero-title" class="hero">
+     <svg aria-label="MoneyFlux app icon" class="hero-icon" height="88" role="img" viewBox="0 0 88 88" width="88" xmlns="http://www.w3.org/2000/svg">
+      <rect fill="var(--surface)" height="88" rx="20" width="88">
+      </rect>
+      <rect fill="none" height="87" rx="19.5" stroke="var(--border)" width="87" x="0.5" y="0.5">
+      </rect>
+      <path d="M21 59.5H66.5" opacity="0.55" stroke="var(--text-muted)" stroke-linecap="round" stroke-width="3">
+      </path>
+      <path d="M24 53L37 42L47 48L63 28" fill="none" stroke="var(--green)" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+      </path>
+      <path d="M55.5 28H63V35.5" fill="none" stroke="var(--green)" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+      </path>
+      <circle cx="37" cy="42" fill="var(--accent)" r="3.5">
+      </circle>
+      <circle cx="47" cy="48" fill="var(--accent)" r="3.5">
+      </circle>
+     </svg>
+     <h1 class="hero-wordmark" id="hero-title">
+      <span class="money">
+       Money
+      </span>
+      <span class="flux">
+       Flux
+      </span>
+     </h1>
+     <p class="tagline">
+      All your money, one view
+     </p>
+     <p class="hero-dates">
+      Effective date: August 20, 2026 · Last updated: August 20, 2026
+     </p>
+    </section>
+    <section class="summary-box">
+     <p>
+      In short: MoneyFlux has no accounts, no servers, no analytics and no ads. Your financial data is stored on your device and — only if you choose — in your own private iCloud account. The developer never receives it.
+     </p>
+    </section>
+    <section aria-label="Jump links" class="jump-cards">
+     <a class="jump-card" href="#privacy">
+      <strong>
+       Privacy Policy
+      </strong>
+      <span>
+       What we do and don't collect, iCloud, permissions, your rights.
+      </span>
+     </a>
+     <a class="jump-card" href="#terms">
+      <strong>
+       Terms of Use
+      </strong>
+      <span>
+       Licence, disclaimers, liability, Apple terms, governing law.
+      </span>
+     </a>
+    </section>
+    <article aria-labelledby="privacy-title" id="privacy">
+     <h2 id="privacy-title">
+      Privacy Policy — MoneyFlux
+     </h2>
+     <p class="article-dates">
+      Effective date: August 20, 2026 · Last updated: August 20, 2026
+     </p>
+     <aside class="contents">
+      <h3>
+       Contents
+      </h3>
+      <ol>
+       <li>
+        <a href="#p-summary">
+         1. Summary
+        </a>
+       </li>
+       <li>
+        <a href="#p-no-collect">
+         2. Information We Do Not Collect
+        </a>
+       </li>
+       <li>
+        <a href="#p-data">
+         3. Data You Create Inside the App
+        </a>
+       </li>
+       <li>
+        <a href="#p-icloud">
+         4. iCloud Sync
+        </a>
+       </li>
+       <li>
+        <a href="#p-permissions">
+         5. Device Permissions and System Features
+        </a>
+       </li>
+       <li>
+        <a href="#p-apple">
+         6. App Store and Apple
+        </a>
+       </li>
+       <li>
+        <a href="#p-payments">
+         7. Payments
+        </a>
+       </li>
+       <li>
+        <a href="#p-children">
+         8. Children
+        </a>
+       </li>
+       <li>
+        <a href="#p-rights">
+         9. Your Rights
+        </a>
+       </li>
+       <li>
+        <a href="#p-security">
+         10. Data Security
+        </a>
+       </li>
+       <li>
+        <a href="#p-retention">
+         11. Data Retention
+        </a>
+       </li>
+       <li>
+        <a href="#p-transfers">
+         12. International Transfers
+        </a>
+       </li>
+       <li>
+        <a href="#p-changes">
+         13. Changes to This Policy
+        </a>
+       </li>
+       <li>
+        <a href="#p-contact">
+         14. Contact
+        </a>
+       </li>
+      </ol>
+     </aside>
+     <p>
+      MoneyFlux ("the App") is developed and published by
+      <strong>
+       Taras Chernysh
+      </strong>
+      , an independent software developer based in Ukraine ("we", "us", "the Developer").
+     </p>
+     <p>
+      This Privacy Policy explains how MoneyFlux handles information. The short version:
+      <strong>
+       MoneyFlux has no servers, no accounts, and no analytics. We never receive your financial data.
+      </strong>
+     </p>
+     <section class="legal-section">
+      <h3 id="p-summary">
+       1. Summary
+      </h3>
+      <section class="table-scroll">
+       <table>
+        <thead>
+         <tr>
+          <th scope="col">
+           Question
+          </th>
+          <th scope="col">
+           Answer
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           Do we collect personal data?
+          </td>
+          <td>
+           <strong>
+            No.
+           </strong>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Do we have a server or backend?
+          </td>
+          <td>
+           <strong>
+            No.
+           </strong>
+           The App runs entirely on your device.
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Do we use analytics, ads, or tracking SDKs?
+          </td>
+          <td>
+           <strong>
+            No.
+           </strong>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Do we share data with third parties?
+          </td>
+          <td>
+           <strong>
+            No.
+           </strong>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Do you need an account to use MoneyFlux?
+          </td>
+          <td>
+           <strong>
+            No.
+           </strong>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Where is your data stored?
+          </td>
+          <td>
+           On your device, and — if you enable iCloud — in your own private Apple iCloud account.
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </section>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-no-collect">
+       2. Information We Do Not Collect
+      </h3>
+      <p>
+       We do not collect, transmit, sell, rent, or otherwise process any of the following:
+      </p>
+      <ul>
+       <li>
+        Your name, email address, phone number, or postal address
+       </li>
+       <li>
+        Your bank credentials, card numbers, or banking logins (the App never asks for them and cannot connect to a bank)
+       </li>
+       <li>
+        Your transactions, balances, categories, accounts, loans, recurring payments, notes, or tags
+       </li>
+       <li>
+        Bank statement files (CSV/PDF) that you import
+       </li>
+       <li>
+        Your device identifiers, advertising identifiers (IDFA), or location
+       </li>
+       <li>
+        Usage analytics, behavioural events, session recordings, or crash telemetry sent to us
+       </li>
+      </ul>
+      <p>
+       MoneyFlux contains
+       <strong>
+        no advertising SDKs, no analytics SDKs, and no third-party tracking libraries
+       </strong>
+       . The only third-party component bundled in the App is
+       <strong>
+        FactoryKit
+       </strong>
+       , an open-source dependency-injection library that operates purely as internal application code — it performs no networking and processes no user data.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-data">
+       3. Data You Create Inside the App
+      </h3>
+      <p>
+       All content you create or import — accounts, transactions, categories, budgets, recurring payments, loans, tags, notes, and imported bank statements — is stored
+       <strong>
+        locally on your device
+       </strong>
+       in an app-private database (Apple Core Data).
+      </p>
+      <p>
+       Bank statement files that you import (for example PrivatBank or MonoBank CSV files, or OschadBank and Scotiabank PDF statements) are parsed
+       <strong>
+        on your device
+       </strong>
+       . The file contents are never uploaded anywhere. Once parsing is finished, MoneyFlux keeps only the transaction records you chose to import.
+      </p>
+      <p>
+       You remain the sole owner and controller of this data at all times.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-icloud">
+       4. iCloud Sync
+      </h3>
+      <p>
+       If you enable iCloud sync, MoneyFlux uses Apple's
+       <strong>
+        CloudKit private database
+       </strong>
+       to synchronise your data between your own Apple devices.
+      </p>
+      <ul>
+       <li>
+        Data is stored in
+        <strong>
+         your personal iCloud account
+        </strong>
+        , not in any account or infrastructure belonging to the Developer.
+       </li>
+       <li>
+        The Developer has
+        <strong>
+         no access
+        </strong>
+        to your iCloud container, and cannot read, export, or restore your data.
+       </li>
+       <li>
+        Sync is handled entirely by Apple's frameworks and is governed by Apple's privacy practices. See Apple's Privacy Policy:
+        <a href="https://www.apple.com/legal/privacy/" rel="noopener" target="_blank">
+         https://www.apple.com/legal/privacy/
+        </a>
+       </li>
+       <li>
+        You can disable iCloud sync at any time in the App's settings, or in iOS Settings → your Apple Account → iCloud.
+       </li>
+      </ul>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-permissions">
+       5. Device Permissions and System Features
+      </h3>
+      <p>
+       MoneyFlux may request the following, always with your consent, and always processed locally:
+      </p>
+      <section class="table-scroll">
+       <table>
+        <thead>
+         <tr>
+          <th scope="col">
+           Feature
+          </th>
+          <th scope="col">
+           Purpose
+          </th>
+          <th scope="col">
+           Leaves your device?
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           <strong>
+            Files access
+           </strong>
+          </td>
+          <td>
+           To let you pick a bank statement (CSV/PDF) for import
+          </td>
+          <td>
+           No
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <strong>
+            Notifications
+           </strong>
+          </td>
+          <td>
+           Local reminders for upcoming recurring payments and loan due dates
+          </td>
+          <td>
+           No — scheduled locally by iOS
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <strong>
+            Face ID / Touch ID / passcode
+           </strong>
+          </td>
+          <td>
+           To lock the App
+          </td>
+          <td>
+           No — authentication is performed by iOS; the App only receives a success/failure result and never sees your biometric data
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <strong>
+            iCloud
+           </strong>
+          </td>
+          <td>
+           Optional sync between your devices
+          </td>
+          <td>
+           Only to your own iCloud account
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </section>
+      <p>
+       You can revoke any of these permissions at any time in iOS Settings.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-apple">
+       6. App Store and Apple
+      </h3>
+      <p>
+       MoneyFlux is distributed through the Apple App Store. Apple may collect information related to your download, device, and — if you have opted in to sharing analytics with developers — aggregated, anonymised crash and usage statistics. This collection is performed by Apple under Apple's own terms, not by us. Any such reports we may view in App Store Connect are aggregated and cannot be used to identify you or to see your financial data.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-payments">
+       7. Payments
+      </h3>
+      <p>
+       MoneyFlux is currently offered free of charge. If paid features or subscriptions are introduced in the future, all payments will be processed by
+       <strong>
+        Apple
+       </strong>
+       through the App Store. We will never receive or store your payment card details. This Policy will be updated before any such feature is released.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-children">
+       8. Children
+      </h3>
+      <p>
+       MoneyFlux is not directed at children under 13 (or the equivalent minimum age in your country). Because we collect no personal data at all, we do not knowingly collect personal information from children.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-rights">
+       9. Your Rights
+      </h3>
+      <p>
+       Privacy laws such as the EU/UK
+       <strong>
+        GDPR
+       </strong>
+       , the Law of Ukraine "On Personal Data Protection", Canada's
+       <strong>
+        PIPEDA
+       </strong>
+       , and the
+       <strong>
+        CCPA
+       </strong>
+       grant you rights of access, correction, deletion, portability, and objection with respect to personal data held by a controller.
+      </p>
+      <p>
+       Because we hold
+       <strong>
+        no personal data about you
+       </strong>
+       , there is nothing for us to disclose, correct, export, or erase. You exercise these rights directly and immediately on your own device:
+      </p>
+      <ul>
+       <li>
+        <strong>
+         Access / portability
+        </strong>
+        — your data is visible in the App; export functionality is provided in the App where available.
+       </li>
+       <li>
+        <strong>
+         Correction
+        </strong>
+        — edit or delete any record at any time inside the App.
+       </li>
+       <li>
+        <strong>
+         Erasure
+        </strong>
+        — deleting the App removes its local database from your device. If iCloud sync was enabled, you can additionally remove the App's iCloud data in iOS Settings → your Apple Account → iCloud → Manage Account Storage.
+       </li>
+      </ul>
+      <p>
+       We do not sell or share personal information, and we do not engage in "targeted advertising" or "profiling" as defined by applicable privacy law.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-security">
+       10. Data Security
+      </h3>
+      <p>
+       Your data is protected by iOS's built-in application sandbox and, when your device is locked with a passcode, by full-device encryption. iCloud data is encrypted in transit and at rest by Apple. You can enable an additional Face ID / Touch ID / passcode lock inside MoneyFlux.
+      </p>
+      <p>
+       Because your data never leaves your control, there is no central database of MoneyFlux users that could be breached. However, no method of electronic storage is completely secure, and you are responsible for keeping your device and Apple Account secure.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-retention">
+       11. Data Retention
+      </h3>
+      <p>
+       We retain nothing, because we receive nothing. Your data persists on your device (and, if enabled, in your iCloud account) until you delete it or uninstall the App.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-transfers">
+       12. International Transfers
+      </h3>
+      <p>
+       Since no data is transmitted to us, there are no international transfers of your personal data by the Developer. Any transfer performed by Apple as part of iCloud sync is governed by Apple's terms.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-changes">
+       13. Changes to This Policy
+      </h3>
+      <p>
+       We may update this Privacy Policy from time to time — for example, if new features change how data is handled. The updated version will be posted on this page with a revised "Last updated" date. Material changes will additionally be announced in the App's release notes. Continued use of the App after an update constitutes acceptance of the revised Policy.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="p-contact">
+       14. Contact
+      </h3>
+      <p>
+       Questions about this Privacy Policy or about MoneyFlux's data practices:
+      </p>
+      <p>
+       <strong>
+        Taras Chernysh
+       </strong>
+      </p>
+      <p>
+       Independent developer, Ukraine
+      </p>
+      <p>
+       Email:
+       <strong>
+        <a href="mailto:chernyshtaras94@gmail.com">
+         chernyshtaras94@gmail.com
+        </a>
+       </strong>
+      </p>
+      <p>
+       We aim to respond to all enquiries within 30 days.
+      </p>
+     </section>
+     <p class="back-to-top">
+      <a href="#top">
+       ↑ Back to top
+      </a>
+     </p>
+    </article>
+    <article aria-labelledby="terms-title" id="terms">
+     <h2 id="terms-title">
+      Terms of Use — MoneyFlux
+     </h2>
+     <p class="article-dates">
+      Effective date: August 20, 2026 · Last updated: August 20, 2026
+     </p>
+     <aside class="contents">
+      <h3>
+       Contents
+      </h3>
+      <ol>
+       <li>
+        <a href="#t-licence">
+         1. Licence
+        </a>
+       </li>
+       <li>
+        <a href="#t-scope">
+         2. What MoneyFlux Is — and What It Is Not
+        </a>
+       </li>
+       <li>
+        <a href="#t-responsibilities">
+         3. Your Responsibilities
+        </a>
+       </li>
+       <li>
+        <a href="#t-data">
+         4. Your Data
+        </a>
+       </li>
+       <li>
+        <a href="#t-import">
+         5. Bank Statement Import
+        </a>
+       </li>
+       <li>
+        <a href="#t-backups">
+         6. Backups and Data Loss
+        </a>
+       </li>
+       <li>
+        <a href="#t-price">
+         7. Price and Availability
+        </a>
+       </li>
+       <li>
+        <a href="#t-updates">
+         8. Updates, Changes, and Discontinuation
+        </a>
+       </li>
+       <li>
+        <a href="#t-intellectual-property">
+         9. Intellectual Property
+        </a>
+       </li>
+       <li>
+        <a href="#t-warranties">
+         10. Disclaimer of Warranties
+        </a>
+       </li>
+       <li>
+        <a href="#t-liability">
+         11. Limitation of Liability
+        </a>
+       </li>
+       <li>
+        <a href="#t-indemnity">
+         12. Indemnity
+        </a>
+       </li>
+       <li>
+        <a href="#t-apple">
+         13. Apple-Specific Terms
+        </a>
+       </li>
+       <li>
+        <a href="#t-termination">
+         14. Termination
+        </a>
+       </li>
+       <li>
+        <a href="#t-law">
+         15. Governing Law
+        </a>
+       </li>
+       <li>
+        <a href="#t-changes">
+         16. Changes to These Terms
+        </a>
+       </li>
+       <li>
+        <a href="#t-severability">
+         17. Severability and Entire Agreement
+        </a>
+       </li>
+       <li>
+        <a href="#t-contact">
+         18. Contact
+        </a>
+       </li>
+      </ol>
+     </aside>
+     <p>
+      Please read these Terms of Use ("Terms") carefully before using MoneyFlux ("the App"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.
+     </p>
+     <p>
+      The App is developed and published by
+      <strong>
+       Taras Chernysh
+      </strong>
+      , an independent software developer based in Ukraine ("we", "us", "the Developer").
+     </p>
+     <section class="legal-section">
+      <h3 id="t-licence">
+       1. Licence
+      </h3>
+      <p>
+       Subject to your compliance with these Terms and with Apple's
+       <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">
+        Licensed Application End User Licence Agreement
+       </a>
+       , we grant you a personal, limited, non-exclusive, non-transferable, revocable licence to install and use MoneyFlux on Apple-branded devices that you own or control, for your own personal, non-commercial use.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-scope">
+       2. What MoneyFlux Is — and What It Is Not
+      </h3>
+      <p>
+       MoneyFlux is a
+       <strong>
+        personal bookkeeping and record-keeping tool
+       </strong>
+       . It helps you record accounts, transactions, budgets, recurring payments, and loans, and to import bank statement files that you provide yourself.
+      </p>
+      <p>
+       <strong>
+        MoneyFlux is not:
+       </strong>
+      </p>
+      <ul>
+       <li>
+        a bank, payment institution, money transmitter, or financial services provider;
+       </li>
+       <li>
+        a source of financial, investment, tax, accounting, or legal advice;
+       </li>
+       <li>
+        connected to your bank — the App cannot access your bank accounts, initiate payments, or move money;
+       </li>
+       <li>
+        an authoritative record of your finances.
+       </li>
+      </ul>
+      <p>
+       <strong>
+        Always verify balances and transactions with your bank or financial institution.
+       </strong>
+       Any decision you make on the basis of information shown in the App is your own responsibility. Imported and calculated figures may contain errors, particularly where a bank changes its statement format.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-responsibilities">
+       3. Your Responsibilities
+      </h3>
+      <p>
+       You agree to:
+      </p>
+      <ul>
+       <li>
+        use the App only for lawful purposes and in compliance with applicable law;
+       </li>
+       <li>
+        import only statements and financial data that you are entitled to access;
+       </li>
+       <li>
+        maintain the security of your device and your Apple Account;
+       </li>
+       <li>
+        keep your own backups of important data (see Section 6);
+       </li>
+       <li>
+        not reverse-engineer, decompile, or disassemble the App except to the extent this restriction is prohibited by applicable law;
+       </li>
+       <li>
+        not attempt to circumvent any technical limitation, resell, sublicense, rent, or redistribute the App;
+       </li>
+       <li>
+        not use the App to build a competing product or to extract its source data structures for commercial purposes.
+       </li>
+      </ul>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-data">
+       4. Your Data
+      </h3>
+      <p>
+       MoneyFlux stores your data on your device and, if you enable iCloud, in your own private Apple iCloud account. We do not operate servers and do not receive your data. You retain all rights to the content you create in the App.
+      </p>
+      <p>
+       How data is handled is described in our
+       <a href="#privacy">
+        Privacy Policy
+       </a>
+       , which forms part of these Terms.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-import">
+       5. Bank Statement Import
+      </h3>
+      <p>
+       The App can parse statement files from certain financial institutions (currently PrivatBank, MonoBank, OschadBank, and Scotiabank). These parsers are provided
+       <strong>
+        as-is
+       </strong>
+       and are not endorsed by, affiliated with, or supported by those institutions. Banks may change their file formats at any time, which may cause import to fail or to produce incorrect results. You are responsible for reviewing imported transactions before relying on them.
+      </p>
+      <p>
+       All bank names, logos, and trademarks referenced in the App belong to their respective owners and are used solely for identification purposes.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-backups">
+       6. Backups and Data Loss
+      </h3>
+      <p>
+       You are solely responsible for backing up your data. The Developer is not responsible for any loss or corruption of data, whether caused by device failure, loss or theft of a device, deletion of the App, iCloud errors or outages, operating-system updates, or defects in the App. We strongly recommend keeping a device backup and, where the App offers export functionality, exporting your data periodically.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-price">
+       7. Price and Availability
+      </h3>
+      <p>
+       MoneyFlux is currently offered
+       <strong>
+        free of charge
+       </strong>
+       . We may in the future introduce paid features, premium tiers, or auto-renewing subscriptions. If we do:
+      </p>
+      <ul>
+       <li>
+        pricing and terms will be presented to you clearly before any purchase;
+       </li>
+       <li>
+        all payments will be processed by
+        <strong>
+         Apple
+        </strong>
+        through the App Store and will be subject to Apple's terms and refund policy;
+       </li>
+       <li>
+        features you already have will not be removed retroactively without notice;
+       </li>
+       <li>
+        these Terms will be updated accordingly.
+       </li>
+      </ul>
+      <p>
+       The Developer does not process payments and cannot issue refunds. Refund requests must be made to Apple at
+       <a href="https://support.apple.com/billing" rel="noopener" target="_blank">
+        https://support.apple.com/billing
+       </a>
+       .
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-updates">
+       8. Updates, Changes, and Discontinuation
+      </h3>
+      <p>
+       We may modify, suspend, or discontinue the App or any of its features at any time, with or without notice. We may release updates that change functionality. We are not obliged to provide support, maintenance, or updates for any particular period.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-intellectual-property">
+       9. Intellectual Property
+      </h3>
+      <p>
+       The App, including its source code, design, user interface, graphics, and name, is owned by the Developer and protected by copyright and other intellectual-property laws. Except for the licence granted in Section 1, no rights are transferred to you. Third-party open-source components included in the App remain subject to their own licences.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-warranties">
+       10. Disclaimer of Warranties
+      </h3>
+      <p>
+       TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE APP IS PROVIDED
+       <strong>
+        "AS IS" AND "AS AVAILABLE"
+       </strong>
+       , WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT.
+      </p>
+      <p>
+       WE DO NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, OR THAT CALCULATIONS, IMPORTS, OR CATEGORISATIONS WILL BE ACCURATE OR COMPLETE.
+      </p>
+      <p>
+       Some jurisdictions do not allow the exclusion of implied warranties, so some of the above may not apply to you. Nothing in these Terms limits consumer rights that cannot be waived under the law of your country of residence.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-liability">
+       11. Limitation of Liability
+      </h3>
+      <p>
+       TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, GOODWILL, OR FINANCIAL LOSS ARISING OUT OF OR RELATING TO YOUR USE OF, OR INABILITY TO USE, THE APP — INCLUDING LOSSES RESULTING FROM FINANCIAL DECISIONS MADE IN RELIANCE ON THE APP.
+      </p>
+      <p>
+       TO THE EXTENT LIABILITY CANNOT BE EXCLUDED, THE DEVELOPER'S TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID FOR THE APP IN THE TWELVE MONTHS PRECEDING THE CLAIM, OR (B) USD 10.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-indemnity">
+       12. Indemnity
+      </h3>
+      <p>
+       You agree to indemnify and hold harmless the Developer from any claims, damages, liabilities, and expenses (including reasonable legal fees) arising out of your misuse of the App or your breach of these Terms or of applicable law.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-apple">
+       13. Apple-Specific Terms
+      </h3>
+      <p>
+       You acknowledge that:
+      </p>
+      <ul>
+       <li>
+        these Terms are concluded between you and the Developer only,
+        <strong>
+         not with Apple
+        </strong>
+        , and Apple is not responsible for the App or its content;
+       </li>
+       <li>
+        Apple has no obligation to furnish any maintenance or support services for the App;
+       </li>
+       <li>
+        in the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple may refund the purchase price (if any); to the maximum extent permitted by law, Apple has no other warranty obligation whatsoever with respect to the App;
+       </li>
+       <li>
+        Apple is not responsible for addressing any claims by you or a third party relating to the App, including product-liability, regulatory-compliance, or consumer-protection claims;
+       </li>
+       <li>
+        in the event of a third-party claim that the App infringes intellectual property rights, the Developer, not Apple, is solely responsible for the investigation, defence, settlement, and discharge of that claim;
+       </li>
+       <li>
+        you represent that you are not located in a country subject to a U.S. Government embargo or designated as a "terrorist supporting" country, and are not on any U.S. Government list of prohibited or restricted parties;
+       </li>
+       <li>
+        <strong>
+         Apple and its subsidiaries are third-party beneficiaries of these Terms
+        </strong>
+        and, upon your acceptance, will have the right to enforce these Terms against you.
+       </li>
+      </ul>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-termination">
+       14. Termination
+      </h3>
+      <p>
+       These Terms remain in effect until terminated. Your licence terminates automatically if you breach these Terms. You may terminate at any time by deleting the App from your devices. Sections 4, 6, and 9–13 survive termination.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-law">
+       15. Governing Law
+      </h3>
+      <p>
+       These Terms are governed by the laws of
+       <strong>
+        Ukraine
+       </strong>
+       , without regard to conflict-of-law principles. If you are a consumer residing in the European Union, the United Kingdom, or another jurisdiction with mandatory consumer-protection rules, you retain the protection of the mandatory provisions of the law of your country of residence.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-changes">
+       16. Changes to These Terms
+      </h3>
+      <p>
+       We may update these Terms from time to time. The revised version will be posted on this page with a new "Last updated" date. Your continued use of the App after the changes take effect constitutes acceptance of the revised Terms. If you do not agree, stop using the App and delete it.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-severability">
+       17. Severability and Entire Agreement
+      </h3>
+      <p>
+       If any provision of these Terms is found unenforceable, the remaining provisions remain in full force. These Terms, together with the Privacy Policy and Apple's Licensed Application End User Licence Agreement, constitute the entire agreement between you and the Developer regarding the App.
+      </p>
+     </section>
+     <section class="legal-section">
+      <h3 id="t-contact">
+       18. Contact
+      </h3>
+      <p>
+       <strong>
+        Taras Chernysh
+       </strong>
+      </p>
+      <p>
+       Independent developer, Ukraine
+      </p>
+      <p>
+       Email:
+       <strong>
+        <a href="mailto:chernyshtaras94@gmail.com">
+         chernyshtaras94@gmail.com
+        </a>
+       </strong>
+      </p>
+     </section>
+     <p class="back-to-top">
+      <a href="#top">
+       ↑ Back to top
+      </a>
+     </p>
+    </article>
+    <footer>
+     <p>
+      © 2026 Taras Chernysh · MoneyFlux ·
+      <a href="mailto:chernyshtaras94@gmail.com">
+       chernyshtaras94@gmail.com
+      </a>
+     </p>
+    </footer>
+   </section>
+  </main>
+ </body>
+</html>
