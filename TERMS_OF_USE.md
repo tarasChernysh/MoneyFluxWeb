@@ -1,7 +1,7 @@
 # Terms of Use — MoneyFlux
 
 **Effective date:** August 20, 2026
-**Last updated:** August 20, 2026
+**Last updated:** August 21, 2026
 
 Please read these Terms of Use ("Terms") carefully before using MoneyFlux ("the App"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.
 
