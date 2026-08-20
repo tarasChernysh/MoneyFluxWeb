@@ -42,7 +42,7 @@ You agree to:
 
 MoneyFlux stores your data on your device and, if you enable iCloud, in your own private Apple iCloud account. We do not operate servers and do not receive your data. You retain all rights to the content you create in the App.
 
-How data is handled is described in our [Privacy Policy](privacy.html), which forms part of these Terms.
+How data is handled is described in our [Privacy Policy](#privacy), which forms part of these Terms.
 
 ## 5. Bank Statement Import
 
