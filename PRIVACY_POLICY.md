@@ -1,7 +1,7 @@
 # Privacy Policy — MoneyFlux
 
 **Effective date:** August 20, 2026
-**Last updated:** August 20, 2026
+**Last updated:** August 21, 2026
 
 MoneyFlux ("the App") is developed and published by **Taras Chernysh**, an independent software developer based in Ukraine ("we", "us", "the Developer").
 
@@ -83,15 +83,42 @@ MoneyFlux is not directed at children under 13 (or the equivalent minimum age in
 
 ## 9. Your Rights
 
-Privacy laws such as the EU/UK **GDPR**, the Law of Ukraine "On Personal Data Protection", Canada's **PIPEDA**, and the **CCPA** grant you rights of access, correction, deletion, portability, and objection with respect to personal data held by a controller.
+### 9.1 General Rights (All Users)
 
-Because we hold **no personal data about you**, there is nothing for us to disclose, correct, export, or erase. You exercise these rights directly and immediately on your own device:
+Privacy laws such as the EU/UK **GDPR**, the Law of Ukraine "On Personal Data Protection", Canada's **PIPEDA**, and the **CCPA/CPRA** grant rights such as access, correction, deletion, portability, objection, and withdrawal of consent with respect to personal data held by a controller.
+
+Because we hold **no personal data about you**, there is nothing for us to disclose, correct, export, or erase. In practice, these rights are exercised directly and immediately on your own device:
 
 - **Access / portability** — your data is visible in the App; export functionality is provided in the App where available.
 - **Correction** — edit or delete any record at any time inside the App.
 - **Erasure** — deleting the App removes its local database from your device. If iCloud sync was enabled, you can additionally remove the App's iCloud data in iOS Settings → your Apple Account → iCloud → Manage Account Storage.
+- **Objection / withdrawal of consent** — you can stop using optional features (including iCloud sync and notifications permissions) at any time.
 
-We do not sell or share personal information, and we do not engage in "targeted advertising" or "profiling" as defined by applicable privacy law.
+### 9.2 European Economic Area (EEA) and UK Users (GDPR)
+
+If GDPR applies to you, you may also have rights to restrict processing and to lodge a complaint with your local data protection authority.
+
+For in-app financial records, the Developer is not a "data controller" in the traditional sense because this data is not transmitted to or stored by the Developer. If you enable iCloud sync, any processing in iCloud is governed by Apple's relationship with you under Apple's terms and privacy policy.
+
+### 9.3 California Users (CCPA/CPRA)
+
+MoneyFlux does not collect personal information from within the App, other than information inherently processed by Apple for App Store distribution and account operations under Apple's own policies.
+
+In relation to the App itself, we do **not** collect identifiers, geolocation data, audio data, visual data, internet activity logs, or financial records on our servers, because we do not operate servers and do not receive your in-app data.
+
+We do **not** sell personal information, do **not** share personal information for cross-context behavioral advertising, and do **not** discriminate against users for exercising applicable privacy rights.
+
+To submit a CCPA/CPRA request, email **chernyshtaras94@gmail.com** with the subject line **"CCPA Privacy Request"**. We aim to respond within 30 days, or within timeframes required by applicable law.
+
+### 9.4 Turkish Users (KVKK)
+
+Under Turkey's **KVKK**, you may have rights to learn whether your personal data is processed, request information about purposes of processing, learn recipients/third parties, request correction, and request deletion.
+
+Because your in-app data does not reach the Developer, these rights are generally satisfied by your direct control of data on your device and (if enabled) in your own iCloud account, and will be honored to the extent applicable.
+
+### 9.5 Canadian Users (PIPEDA)
+
+If **PIPEDA** applies to you, you may request access to, correction of, or deletion of personal information held by an organization. Because we do not receive or store your in-app personal data, such rights are generally exercised directly by you in the App and on your device.
 
 ## 10. Data Security
 
@@ -111,7 +138,13 @@ Since no data is transmitted to us, there are no international transfers of your
 
 We may update this Privacy Policy from time to time — for example, if new features change how data is handled. The updated version will be posted on this page with a revised "Last updated" date. Material changes will additionally be announced in the App's release notes. Continued use of the App after an update constitutes acceptance of the revised Policy.
 
-## 14. Contact
+## 14. Governing Law and Jurisdiction
+
+This Privacy Policy is governed by the laws of **Ukraine**, and disputes relating to this Policy are subject to the jurisdiction of the courts of Ukraine.
+
+If you reside in a jurisdiction with non-waivable privacy rights (including under GDPR, CCPA/CPRA, KVKK, PIPEDA, or other applicable law), nothing in this section limits those mandatory rights.
+
+## 15. Contact
 
 Questions about this Privacy Policy or about MoneyFlux's data practices:
 
@@ -119,4 +152,11 @@ Questions about this Privacy Policy or about MoneyFlux's data practices:
 Independent developer, Ukraine
 Email: **chernyshtaras94@gmail.com**
 
-We aim to respond to all enquiries within 30 days.
+For privacy rights requests, please email us with a clear subject line such as **"Privacy Rights Request"** and include:
+
+- the email address associated with your Apple account usage (if relevant);
+- your country/state of residence;
+- the specific right you want to exercise (for example: access, correction, deletion, objection, restriction, or portability);
+- any details needed to identify the relevant context of your request.
+
+We aim to respond to all enquiries within 30 days, or within timeframes required by applicable law.
