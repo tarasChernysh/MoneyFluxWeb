@@ -1,3 +1,3 @@
 MoneyFluxWeb is the GitHub Pages legal site for the MoneyFlux iOS app.
-Update `PRIVACY_POLICY.md` and `TERMS_OF_USE.md`, then mirror those verbatim changes into `index.html`.
+`index.html` is the single source of truth — it contains the Privacy Policy and Terms of Use, plus all styling and the app icon reference, in one self-contained page.
 Live URL: https://taraschernysh.github.io/MoneyFluxWeb/

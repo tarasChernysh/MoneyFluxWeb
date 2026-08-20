@@ -12,7 +12,11 @@
   <meta content="MoneyFlux — Privacy Policy &amp; Terms of Use" property="og:title"/>
   <meta content="MoneyFlux collects no data, uses no analytics, and stores information on your device or in your private iCloud account." property="og:description"/>
   <meta content="website" property="og:type"/>
-  <meta content="icon.png" property="og:image"/>
+  <meta content="https://taraschernysh.github.io/MoneyFluxWeb/icon.png" property="og:image"/>
+  <meta content="https://taraschernysh.github.io/MoneyFluxWeb/" property="og:url"/>
+  <link href="icon.png" rel="icon" type="image/png"/>
+  <link href="icon.png" rel="apple-touch-icon"/>
+  <link href="https://taraschernysh.github.io/MoneyFluxWeb/" rel="canonical"/>
   <style>
    :root {
       --bg: #07090F;
@@ -78,7 +82,8 @@
 
     h1,
     h2,
-    h3 {
+    h3,
+    h4 {
       margin: 0;
       letter-spacing: -0.02em;
       line-height: 1.15;
@@ -98,6 +103,17 @@
     h3 {
       font-size: clamp(1.15rem, 4vw, 1.25rem);
       font-weight: 650;
+    }
+
+    h4 {
+      font-size: 1.02rem;
+      font-weight: 650;
+      color: var(--text-strong);
+    }
+
+    .legal-section h4 {
+      margin-top: 1.3rem;
+      margin-bottom: 0.6rem;
     }
 
     p,
@@ -194,6 +210,7 @@
       height: 88px;
       border-radius: 20px;
       overflow: hidden;
+      object-fit: cover;
       box-shadow: 0 22px 60px color-mix(in srgb, var(--accent) 30%, transparent);
     }
 
@@ -315,6 +332,11 @@
 
     .legal-section li + li {
       margin-top: 0.4rem;
+    }
+
+    .legal-section li > ol,
+    .legal-section li > ul {
+      margin: 0.5rem 0;
     }
 
     .table-scroll {
@@ -461,7 +483,7 @@
        </a>
       </li>
       <li>
-       <a href="mailto:chernyshtaras94@gmail.com">
+       <a href="mailto:chernyshtar@gmail.com">
         Contact
        </a>
       </li>
@@ -472,22 +494,7 @@
   <main id="top">
    <section class="shell">
     <section aria-labelledby="hero-title" class="hero">
-     <svg aria-label="MoneyFlux app icon" class="hero-icon" height="88" role="img" viewBox="0 0 88 88" width="88" xmlns="http://www.w3.org/2000/svg">
-      <rect fill="var(--surface)" height="88" rx="20" width="88">
-      </rect>
-      <rect fill="none" height="87" rx="19.5" stroke="var(--border)" width="87" x="0.5" y="0.5">
-      </rect>
-      <path d="M21 59.5H66.5" opacity="0.55" stroke="var(--text-muted)" stroke-linecap="round" stroke-width="3">
-      </path>
-      <path d="M24 53L37 42L47 48L63 28" fill="none" stroke="var(--green)" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
-      </path>
-      <path d="M55.5 28H63V35.5" fill="none" stroke="var(--green)" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
-      </path>
-      <circle cx="37" cy="42" fill="var(--accent)" r="3.5">
-      </circle>
-      <circle cx="47" cy="48" fill="var(--accent)" r="3.5">
-      </circle>
-     </svg>
+     <img alt="MoneyFlux app icon" class="hero-icon" decoding="async" height="88" src="icon.png" width="88"/>
      <h1 class="hero-wordmark" id="hero-title">
       <span class="money">
        Money
@@ -500,7 +507,7 @@
       All your money, one view
      </p>
      <p class="hero-dates">
-      Effective date: August 20, 2026 · Last updated: August 21, 2026
+      Effective date: August 20, 2026 · Last updated: August 20, 2026
      </p>
     </section>
     <section class="summary-box">
@@ -531,7 +538,7 @@
       Privacy Policy — MoneyFlux
      </h2>
      <p class="article-dates">
-      Effective date: August 20, 2026 · Last updated: August 21, 2026
+      Effective date: August 20, 2026 · Last updated: August 20, 2026
      </p>
      <aside class="contents">
       <h3>
@@ -610,7 +617,7 @@
        </li>
        <li>
         <a href="#p-contact">
-         15. Contact
+         15. Contact and Support
         </a>
        </li>
       </ol>
@@ -694,6 +701,7 @@
            <strong>
             No.
            </strong>
+           The App has no accounts and no sign-in, so there is no account to delete.
           </td>
          </tr>
          <tr>
@@ -745,6 +753,13 @@
         FactoryKit
        </strong>
        , an open-source dependency-injection library that operates purely as internal application code — it performs no networking and processes no user data.
+      </p>
+      <p>
+       Accordingly, MoneyFlux's App Store privacy information ("App Privacy" on its App Store product page) declares
+       <strong>
+        "Data Not Collected"
+       </strong>
+       , which is consistent with this Policy.
       </p>
      </section>
      <section class="legal-section">
@@ -962,7 +977,19 @@
         <strong>
          Erasure
         </strong>
-        — deleting the App removes its local database from your device. If iCloud sync was enabled, you can additionally remove the App's iCloud data in iOS Settings → your Apple Account → iCloud → Manage Account Storage.
+        — you can delete your data yourself, immediately and without contacting us:
+        <ol>
+         <li>
+          delete individual records, or all records, inside the App;
+         </li>
+         <li>
+          delete the App from your device — this removes its local database;
+         </li>
+         <li>
+          if you enabled iCloud sync, also remove the App's iCloud data in iOS Settings → your Apple Account → iCloud → Manage Account Storage → MoneyFlux → Delete Data.
+         </li>
+        </ol>
+        Because the App has no accounts and no server-side copy of your data, completing these steps erases it entirely. There is no deletion request to send us.
        </li>
        <li>
         <strong>
@@ -1011,8 +1038,8 @@
       <p>
        To submit a CCPA/CPRA request, email
        <strong>
-        <a href="mailto:chernyshtaras94@gmail.com">
-         chernyshtaras94@gmail.com
+        <a href="mailto:chernyshtar@gmail.com">
+         chernyshtar@gmail.com
         </a>
        </strong>
        with the subject line
@@ -1097,10 +1124,10 @@
      </section>
      <section class="legal-section">
       <h3 id="p-contact">
-       15. Contact
+       15. Contact and Support
       </h3>
       <p>
-       Questions about this Privacy Policy or about MoneyFlux's data practices:
+       This is the support and contact point for MoneyFlux — for questions about this Privacy Policy, about the App's data practices, or for help with the App itself. The Developer, not Apple, is solely responsible for support.
       </p>
       <p>
        <strong>
@@ -1113,8 +1140,8 @@
       <p>
        Email:
        <strong>
-        <a href="mailto:chernyshtaras94@gmail.com">
-         chernyshtaras94@gmail.com
+        <a href="mailto:chernyshtar@gmail.com">
+         chernyshtar@gmail.com
         </a>
        </strong>
       </p>
@@ -1154,7 +1181,7 @@
       Terms of Use — MoneyFlux
      </h2>
      <p class="article-dates">
-      Effective date: August 20, 2026 · Last updated: August 21, 2026
+      Effective date: August 20, 2026 · Last updated: August 20, 2026
      </p>
      <aside class="contents">
       <h3>
@@ -1270,9 +1297,16 @@
       <p>
        Subject to your compliance with these Terms and with Apple's
        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener" target="_blank">
-        Licensed Application End User Licence Agreement
+        Licensed Application End User License Agreement
        </a>
        , we grant you a personal, limited, non-exclusive, non-transferable, revocable licence to install and use MoneyFlux on Apple-branded devices that you own or control, for your own personal, non-commercial use.
+      </p>
+      <p>
+       This licence is subject to the Usage Rules set out in Apple's
+       <a href="https://www.apple.com/legal/internet-services/itunes/" rel="noopener" target="_blank">
+        Media Services Terms and Conditions
+       </a>
+       . The App may also be accessed and used by other accounts associated with you through Family Sharing or volume purchasing, where Apple makes those features available.
       </p>
      </section>
      <section class="legal-section">
@@ -1462,6 +1496,9 @@
       <p>
        TO THE EXTENT LIABILITY CANNOT BE EXCLUDED, THE DEVELOPER'S TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID FOR THE APP IN THE TWELVE MONTHS PRECEDING THE CLAIM, OR (B) USD 10.
       </p>
+      <p>
+       Some jurisdictions do not allow the exclusion or limitation of certain damages, so parts of the above may not apply to you. Nothing in this section excludes or limits liability for death or personal injury caused by negligence, for fraud, or for any other liability that cannot be excluded under the law of your country of residence, and nothing here limits consumer rights that cannot be waived under that law.
+      </p>
      </section>
      <section class="legal-section">
       <h3 id="t-indemnity">
@@ -1487,7 +1524,25 @@
         , and Apple is not responsible for the App or its content;
        </li>
        <li>
+        your licence to use the App is non-transferable, is limited to use on Apple-branded products that you own or control, and is subject to the Usage Rules set out in Apple's
+        <a href="https://www.apple.com/legal/internet-services/itunes/" rel="noopener" target="_blank">
+         Media Services Terms and Conditions
+        </a>
+        ;
+       </li>
+       <li>
         Apple has no obligation to furnish any maintenance or support services for the App;
+       </li>
+       <li>
+        the
+        <strong>
+         Developer, not Apple, is solely responsible
+        </strong>
+        for providing any maintenance and support for the App. Support requests should be sent to
+        <a href="mailto:chernyshtar@gmail.com">
+         chernyshtar@gmail.com
+        </a>
+        ;
        </li>
        <li>
         in the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple may refund the purchase price (if any); to the maximum extent permitted by law, Apple has no other warranty obligation whatsoever with respect to the App;
@@ -1500,6 +1555,9 @@
        </li>
        <li>
         you represent that you are not located in a country subject to a U.S. Government embargo or designated as a "terrorist supporting" country, and are not on any U.S. Government list of prohibited or restricted parties;
+       </li>
+       <li>
+        you must comply with any applicable third-party terms of agreement when using the App;
        </li>
        <li>
         <strong>
@@ -1560,8 +1618,8 @@
       <p>
        Email:
        <strong>
-        <a href="mailto:chernyshtaras94@gmail.com">
-         chernyshtaras94@gmail.com
+        <a href="mailto:chernyshtar@gmail.com">
+         chernyshtar@gmail.com
         </a>
        </strong>
       </p>
@@ -1575,8 +1633,8 @@
     <footer>
      <p>
       © 2026 Taras Chernysh · MoneyFlux ·
-      <a href="mailto:chernyshtaras94@gmail.com">
-       chernyshtaras94@gmail.com
+      <a href="mailto:chernyshtar@gmail.com">
+       chernyshtar@gmail.com
       </a>
      </p>
     </footer>
